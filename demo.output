@@ -1,0 +1,22 @@
+updating: s3-code.py (deflated 69%)
+updating: utils.py (deflated 73%)
+updating: clamdscan (deflated 62%)
+updating: scan.conf (deflated 68%)
+expect trigger, fail to publish is ok
+Completed 95.7 KiB/95.7 KiB (922.1 KiB/s) with 1 file(s) remainingupload: ./demo.zip to s3://eft-distro-east-1/private4/Lambda/demo.zip
+Completed 256.0 KiB/924.5 KiB (4.6 MiB/s) with 1 file(s) remainingCompleted 512.0 KiB/924.5 KiB (8.4 MiB/s) with 1 file(s) remainingCompleted 768.0 KiB/924.5 KiB (11.7 MiB/s) with 1 file(s) remainingCompleted 924.5 KiB/924.5 KiB (7.1 MiB/s) with 1 file(s) remaining upload: ./pyhelper.zip to s3://eft-distro-east-1/private4/Lambda/pyhelper.zip
+Completed 21.7 KiB/21.7 KiB (323.8 KiB/s) with 1 file(s) remainingupload: ./s3-deploy.yaml to s3://eft-distro-east-1/private4/s3-deploy.yaml
+{
+    "StackId": "arn:aws:cloudformation:us-east-1:310449849602:stack/demo/ed39d7d0-0664-11ec-a052-1277bf9feb05"
+}
+{
+  "StackId": "arn:aws:cloudformation:us-east-1:310449849602:stack/demo/ed39d7d0-0664-11ec-a052-1277bf9feb05",
+  "EventId": "ed3c6fe0-0664-11ec-a052-1277bf9feb05",
+  "ResourceStatus": "CREATE_IN_PROGRESS",
+  "ResourceType": "AWS::CloudFormation::Stack",
+  "Timestamp": "2021-08-26T11:58:28.992Z",
+  "ResourceStatusReason": "User Initiated",
+  "StackName": "demo",
+  "PhysicalResourceId": "arn:aws:cloudformation:us-east-1:310449849602:stack/demo/ed39d7d0-0664-11ec-a052-1277bf9feb05",
+  "LogicalResourceId": "demo"
+}

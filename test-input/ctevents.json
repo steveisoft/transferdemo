@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2021-08-26T04:39:23.692Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AROAI2LRE6HOGRN3IWEKI:regionalDeliverySession"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "35.169.246.31"
+            },
+            "responseElements": {
+                "x-amz-request-id": "KQ7J7N4BW16FB6A2",
+                "x-amz-id-2": "pnm3FTlpgQmYLrTwb9YKme71dnyFkD8QlOAFm1I8ABTMyYQI+7EpbFPDzSMt/a8tr7y+2hq99y3Az5rk/rKO5vReNWy6EtgN"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "audit-create",
+                "bucket": {
+                    "name": "demo-cloudtrail-private4",
+                    "ownerIdentity": {
+                        "principalId": "A13ZTI5Y30L7WD"
+                    },
+                    "arn": "arn:aws:s3:::demo-cloudtrail-private4"
+                },
+                "object": {
+                    "key": "AWSLogs/310449849602/CloudTrail/us-east-1/2021/08/26/310449849602_CloudTrail_us-east-1_20210826T0440Z_pQeyyzYv5lJ5DpR4.json.gz",
+                    "size": 2667,
+                    "eTag": "bfcfc3a4f34972c72cf3f55d7758a394",
+                    "sequencer": "0061271B0262367CEE"
+                }
+            }
+        }
+    ]
+}

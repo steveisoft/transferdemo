@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2021-08-26T02:21:22.713Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDAUQSCAYUBLMK2LR533"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "3.238.162.81"
+            },
+            "responseElements": {
+                "x-amz-request-id": "20QEBW6TCEGB810Z",
+                "x-amz-id-2": "2TH2wK/fiT9jIlgboFODB4cfK50Y0+/w34XNBjtGGKgbMBwtJyR4av+jg482tInIxtMcpuTsfETLjplbnpqwCbNyvkYSI70aSabaJIgUHMA="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "file-upload",
+                "bucket": {
+                    "name": "demo-transfer-private4",
+                    "ownerIdentity": {
+                        "principalId": "A13ZTI5Y30L7WD"
+                    },
+                    "arn": "arn:aws:s3:::demo-transfer-private4"
+                },
+                "object": {
+                    "key": "Transfer/scan.conf",
+                    "size": 24035,
+                    "eTag": "eb49892d4bf77c31638f7f583f667dd3",
+                    "sequencer": "006126FAA40464060B"
+                }
+            }
+        }
+    ]
+}
